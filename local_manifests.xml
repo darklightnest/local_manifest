@@ -3,9 +3,11 @@
 
         <!-- Remote -->
         <remote name="vickycena1" fetch="https://github.com/vickycena1" />
+        <remote name="ProjectArcana-Devices" fetch="https://github.com/ProjectArcana-Devices" />
+        
         
         <!-- Trees -->
-        <project path="device/xiaomi/juice" name="android_device_xiaomi_juice" remote="vickycena1" revision="twelve-arrow-temp" clone-depth="1" />
-        <project path="vendor/xiaomi/juice" name="android_vendor_xiaomi_juice" remote="vickycena1" revision="twelve" clone-depth="1" />
+        <project path="device/xiaomi/juice" name="arcana_juice_a12" remote="vickycena1" revision="twelve" clone-depth="1" />
+        <project path="vendor/xiaomi/juice" name="android_vendor_xiaomi_juice" remote="ProjectArcana-Devices" revision="twelve" clone-depth="1" />
         
 </manifest>
