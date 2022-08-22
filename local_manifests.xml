@@ -2,8 +2,8 @@
 <manifest>
 
         <!-- Remote -->
-        <remote name="dragonroad99" fetch="https://github.com/dragonroad99" />
-        <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
+        <remote name="dragonroad99" fetch="https://github.com/dragonroad99" clone-depth="1" />
+        <remote name="kdrag0n" fetch="https://github.com/kdrag0n" clone-depth="1" />
         
         <!-- Remove Project -->>
         <remove-project name="android_frameworks_base" />
