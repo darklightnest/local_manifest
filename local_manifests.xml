@@ -14,6 +14,4 @@
         <project path="vendor/xiaomi/juice" name="dragonroad99/viemen" remote="github" revision="10.staging" clone-depth="1" />
         <project path="kernel/xiaomi/juice" name="dragonroad99/unicorn_kernel_citrus" remote="github" revision="main" clone-depth="1" />
         
-        https://github.com/dragonroad99/android_system_core
-        
 </manifest>
