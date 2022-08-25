@@ -26,8 +26,8 @@
         <project path="frameworks/base" name="anci-fwb" remote="dragonroad99" revision="ten-weeabo" clone-depth="1" />
        
         <!-- Trees -->
-        <project path="device/xiaomi/juice" name="dragonroad99/diemen" remote="dragonroad99" revision="anci" clone-depth="1" />
-        <project path="vendor/xiaomi/juice" name="dragonroad99/viemen" remote="dragonroad99" revision="10.staging" clone-depth="1" />
-        <project path="kernel/xiaomi/juice" name="dragonroad99/unicorn_kernel_citrus" remote="dragonroad99" revision="main" clone-depth="1" />
+        <project path="device/xiaomi/juice" name="diemen" remote="dragonroad99" revision="anci" clone-depth="1" />
+        <project path="vendor/xiaomi/juice" name="viemen" remote="dragonroad99" revision="10.staging" clone-depth="1" />
+        <project path="kernel/xiaomi/juice" name="unicorn_kernel_citrus" remote="dragonroad99" revision="main" clone-depth="1" />
         
 </manifest>
