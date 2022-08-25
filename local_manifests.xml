@@ -21,7 +21,7 @@
           <linkfile src="tools" dest="build/tools" />
         </project>
         <project path="frameworks/av" name="anci-fav" remote="github" revision="ten" clone-depth="1" />
-        <project path="frameworks/base" name="anci-fwb" remote="github" revision="ten" clone-depth="1" />
+        <project path="frameworks/base" name="anci-fwb" remote="github" revision="ten-weeabo" clone-depth="1" />
        
         <!-- Trees -->
         <project path="device/xiaomi/juice" name="dragonroad99/diemen" remote="github" revision="anci" clone-depth="1" />
