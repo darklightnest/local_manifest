@@ -22,7 +22,7 @@
         </project>
         
         <!-- Fork2 -->
-        <project path="frameworks/av" name="colq-fav" remote="dragonroad99" revision="c10" clone-depth="1" />
+        <project path="frameworks/av" name="coltq-fav" remote="dragonroad99" revision="c10" clone-depth="1" />
         <project path="frameworks/base" name="coltq-fwb" remote="dragonroad99" revision="c10" clone-depth="1" />
        
         <!-- Trees -->
