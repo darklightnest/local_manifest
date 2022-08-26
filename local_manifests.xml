@@ -6,8 +6,6 @@
         <remote name="cosmic" fetch="https://gitlab.com/GhostMaster69-dev" />
         
         <!-- remove -->
-        <remove-project name="platform_frameworks_av" />
-        <remove-project name="platform_frameworks_base" />
         <remove-project name="platform_vendor_colt" />
 
         <!-- Fork1 -->
@@ -23,8 +21,6 @@
         </project>
         
         <!-- Fork2 -->
-        <project path="frameworks/av" name="coltq-fav" remote="dragonroad99" revision="c10" clone-depth="1" />
-        <project path="frameworks/base" name="coltq-fwb" remote="dragonroad99" revision="c10" clone-depth="1" />
         <project path="vendor/colt" name="colt-vendor" remote="dragonroad99" revision="c10" clone-depth="1" />
 
         <!-- Trees -->
