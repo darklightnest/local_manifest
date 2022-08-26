@@ -8,6 +8,7 @@
         <!-- remove -->
         <remove-project name="platform_frameworks_av" />
         <remove-project name="platform_frameworks_base" />
+        <remove-project name="platform_vendor_colt" />
 
         <!-- Fork1 -->
         <remove-project name="platform_build_make" />
@@ -24,7 +25,8 @@
         <!-- Fork2 -->
         <project path="frameworks/av" name="coltq-fav" remote="dragonroad99" revision="c10" clone-depth="1" />
         <project path="frameworks/base" name="coltq-fwb" remote="dragonroad99" revision="c10" clone-depth="1" />
-       
+        <project path="vendor/colt" name="colt-vendor" remote="dragonroad99" revision="c10" clone-depth="1" />
+
         <!-- Trees -->
         <project path="device/xiaomi/juice" name="diemen" remote="dragonroad99" revision="colt" clone-depth="1" />
         <project path="vendor/xiaomi/juice" name="viemen" remote="dragonroad99" revision="10.staging" clone-depth="1" />
