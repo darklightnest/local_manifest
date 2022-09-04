@@ -9,11 +9,13 @@
         <!-- remove -->
         <remove-project name="android_vendor_nusantara" />
         <remove-project name="android_frameworks_base" />
+        <remove-project name="android_packages_apps_DU-Tweaks" />
 
         <!-- Fork2 -->
         <project path="vendor/nusantara" name="nad-vendor" remote="darklightnest" revision="10" clone-depth="1" />
         <project path="frameworks/base" name="nad-fwb" remote="darklightnest" revision="10" clone-depth="1" />
         <project path="packages/apps/OmniSwitch" name="platform_packages_apps_OmniSwitch" remote="darklightnest" revision="c10" clone-depth="1" />
+        <project path="packages/apps/DU-Tweaks" name="android_packages_apps_DU-Tweaks" remote="darklightnest" revision="10" clone-depth="1" />
 
         <!-- Trees -->
         <project path="device/xiaomi/juice" name="diemen" remote="dragonroad99" revision="nadq" clone-depth="1" />
